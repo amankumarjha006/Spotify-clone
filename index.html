@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify - Your favourite music is here</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="SongList">
+      <h1>Your Favourite Music.......<i class="fa-solid fa-music"></i></h1>
+      <div class="songItemcontainer">
+
+        <!-- SONG ITEMS (Repeat as needed) -->
+        <div class="songItem">
+          <img src="covers/1.jpg" alt="Cover" />
+          <span class="songName">Too Sweet</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="0" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/2.jpg" alt="Cover" />
+          <span class="songName">Bye Bye Bye</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="1" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/3.jpg" alt="Cover" />
+          <span class="songName">River</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="2" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/4.jpg" alt="Cover" />
+          <span class="songName">It's gonna be me</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="3" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/5.jpg" alt="Cover" />
+          <span class="songName">Danger Zone</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="4" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/6.jpg" alt="Cover" />
+          <span class="songName">Die with a smile</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="5" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/7.jpg" alt="Cover" />
+          <span class="songName">Take me to Church</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="6" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/8.jpg" alt="Cover" />
+          <span class="songName">Starboy</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="7" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/9.jpg" alt="Cover" />
+          <span class="songName">I Ain't Worried</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="8" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/10.jpg" alt="Cover" />
+          <span class="songName">Pehli Nazar me</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="9" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/11.jpg" alt="Cover" />
+          <span class="songName">Tera Hone Laga hoon</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="10" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="covers/12.jpg" alt="Cover" />
+          <span class="songName">Tu jaane na</span>
+          <span class="songlistplay">
+            <span class="timestamp">Loading... <i id="11" class="songPlayIcon fa-regular fa-play-circle"></i></span>
+          </span>
+        </div>
+        <!-- Add more song items here by repeating the block and updating songName, id, and img src -->
+
+      </div>
+    </div>
+    <div class="SongBanner"></div>
+  </div>
+
+  <div class="Bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" />
+    <div class="icons">
+      <i class="fa-solid fa-backward-step fa-3x"></i>
+      <i class="fa-solid fa-play-circle fa-3x" id="masterPlay"></i>
+      <i class="fa-solid fa-forward-step fa-3x"></i>
+    </div>
+    <div class="songInfo">
+      <img src="giphy.gif" width="40px" alt="Playing" id="gif" />
+      <span id="currentSong">No Song Playing </span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/81970a4fa9.js" crossorigin="anonymous"></script>
+</body>
+</html>
