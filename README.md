@@ -26,7 +26,7 @@ A simple and functional Spotify-inspired music player built with **HTML**, **CSS
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https://github.com/your-username/Spotify-clone.git
 Add your songs:
 
 Place your .mp3 files inside the /songs or specified audio folder.
